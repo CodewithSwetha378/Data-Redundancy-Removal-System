@@ -16,7 +16,6 @@ def add_user(name, email):
         )
         conn.commit()
         print("Record Added Successfully.")
-
 def display_users():
     cursor.execute("SELECT * FROM users")
 

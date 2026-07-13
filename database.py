@@ -10,6 +10,6 @@ name TEXT,
 email TEXT UNIQUE
 )
 """)
-
 conn.commit()
+print("Database and users table created sucessfully!")
 conn.close()
